@@ -42,7 +42,7 @@ class Program
 
     static void InsertElement(List<int> numbers, int element, int position)
     {
-        if (position >= 0 && position < numbers.Count)
+        if (position >= 0 && position <= numbers.Count)
         {
             numbers.Insert(position, element);
         }
